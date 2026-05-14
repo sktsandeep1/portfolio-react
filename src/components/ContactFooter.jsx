@@ -109,7 +109,7 @@ export function Contact() {
               e.currentTarget.style.boxShadow = "none";
             }}
           >
-            ✉ Say Hello
+            📨 Say Hello
           </a>
 
           <button
@@ -148,14 +148,13 @@ export function Contact() {
           }}
         >
           {[
-            ["⟨/⟩", "GitHub"],
-            ["in", "LinkedIn"],
-            ["𝕏", "Twitter"],
-            ["◎", "Portfolio"],
-          ].map(([icon, title]) => (
+            ["⟨/⟩ ", "GitHub", "https://github.com/sktsandeep1"],
+            ["in", "LinkedIn", "https://linkedin.com/in/sktsandeep1"],
+            ["𝕏", "Twitter", "https://x.com/sktsandeep1"],
+          ].map(([icon, title, url]) => (
             <a
               key={title}
-              href="#"
+              href={url}
               title={title}
               style={{
                 width: 44,
@@ -213,12 +212,12 @@ export function Footer() {
         <div style={{ fontSize: 13, color: "var(--text-muted)" }}>
           Designed & Built by{" "}
           <a
-            href="#"
+            href="/"
             style={{ color: "var(--accent-blue)", textDecoration: "none" }}
           >
             Sandeep
           </a>
-          — © 2026
+          <span style={{ marginLeft: 5 }}>© 2026</span>
         </div>
         <div style={{ display: "flex", gap: 24 }}>
           {[

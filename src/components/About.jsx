@@ -172,9 +172,9 @@ export default function About() {
                 </span>:{" "}
                 <span style={{ color: "#98c379" }}>"Building things"</span>,
                 <br />
-                &nbsp;&nbsp;<span style={{ color: "#61afef" }}>
-                  coffee
-                </span>: <span style={{ color: "#d19a66" }}>Infinity</span>,
+                &nbsp;&nbsp;
+                <span style={{ color: "#61afef" }}>coffee & chai</span>:{" "}
+                <span style={{ color: "#d19a66" }}>Infinity</span>,
                 <br />
                 &nbsp;&nbsp;<span style={{ color: "#61afef" }}>
                   available

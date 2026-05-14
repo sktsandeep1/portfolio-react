@@ -11,8 +11,7 @@ const PROJECTS = [
     gradient:
       "linear-gradient(135deg, rgba(74,144,217,0.1), rgba(139,92,246,0.1))",
     desc: "Built a responsive Point of Sale system tailored for restaurants and retail operations. It streamlines billing, inventory, and order management through a clean, user-friendly dashboard.",
-
-    tech: ["React", "Node.js", "MongoDB", "Redux"],
+    tech: ["React", "Node.js", "MongoDB", "Express", "Redux"],
   },
   // {
   //   icon: "🏥",
@@ -233,7 +232,7 @@ export default function Projects() {
           className="projects-row"
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(2, 1fr)",
+            gridTemplateColumns: "repeat(3, 1fr)",
             gap: 28,
           }}
         >
