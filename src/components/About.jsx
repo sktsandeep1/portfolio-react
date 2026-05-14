@@ -1,5 +1,4 @@
 import { useReveal } from "../hooks/useReveal";
-
 export default function About() {
   const textRef = useReveal(0);
   const codeRef = useReveal(150);
@@ -54,6 +53,7 @@ export default function About() {
         </h2>
 
         <div
+          className="about-row-2"
           style={{
             display: "grid",
             gridTemplateColumns: "1fr 1fr",
@@ -90,7 +90,7 @@ export default function About() {
             >
               {[
                 ["Name", "Sandeep"],
-                ["Role", "Full Stack Developer"],
+                ["Role", "Full Stack Developer / SEO Expert"],
                 ["Location", "India"],
                 ["Education", "B.Tech in IT"],
               ].map(([label, value]) => (
@@ -99,7 +99,7 @@ export default function About() {
             </div>
           </div>
 
-          <div ref={codeRef}>
+          <div ref={codeRef} className="sandeep-config">
             <div
               style={{
                 background: "rgba(15,15,25,0.8)",

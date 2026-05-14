@@ -3,14 +3,20 @@ import { useReveal, useRevealX } from "../hooks/useReveal";
 const EXPERIENCE = [
   {
     date: "Jan 2023 — Apr 2026",
-    role: "Full Stack Developer",
+    role: "Web Developer & SEO Expert",
     company: "Tech Solutions Inc.",
-    location: "📍 Remote",
+    location: "📍 Kolkata",
     points: [
-      "Architected and developed scalable microservices handling 100K+ daily requests using Node.js and AWS Lambda",
-      "Built responsive front-end interfaces with React and TypeScript, improving user engagement by 35%",
-      "Implemented CI/CD pipelines with GitHub Actions and Docker, reducing deployment time by 60%",
-      "Collaborated with cross-functional teams in Agile sprints to deliver features on schedule",
+      "Developed and maintained responsive web applications using HTML, CSS, JavaScript, and React.js",
+      "•Built reusable UI components and interactive user interfaces for improved user experience",
+      "•Integrated frontend applications with backend APIs using Node.js and Express.js",
+      "•Worked with MongoDB and PostgreSQL for database management and CRUD operations",
+      "•Implemented responsive designs using Bootstrap, Tailwind CSS, and Ant Design",
+      "•Improved website performance, accessibility, responsiveness, and cross-browser compatibility",
+      "•Debugged and resolved frontend and backend issues to enhance application stability",
+      "•Used Git and GitHub for version control and collaborative development workflows",
+      "•Tested APIs and handled request/response debugging using Postman",
+      "•Collaborated with team members and stakeholders to implement new features and UI enhancements",
     ],
   },
   {

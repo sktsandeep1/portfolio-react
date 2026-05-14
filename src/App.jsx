@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import { Contact, Footer } from "./components/ContactFooter";
+import "./index.css";
 
 export default function App() {
   useThreeBackground();

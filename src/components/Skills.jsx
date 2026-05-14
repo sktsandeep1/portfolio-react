@@ -190,7 +190,7 @@ export default function Skills() {
             lineHeight: 1.1,
           }}
         >
-          Skills &{" "}
+          Skills &
           <span
             style={{
               background:
@@ -203,6 +203,7 @@ export default function Skills() {
           </span>
         </h2>
         <div
+          className="skills-row"
           style={{
             display: "grid",
             gridTemplateColumns: "repeat(3, 1fr)",
