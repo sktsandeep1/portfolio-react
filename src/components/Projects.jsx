@@ -229,7 +229,7 @@ export default function Projects() {
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(2, 1fr)",
+            gridTemplateColumns: "repeat(1, 1fr)",
             gap: 28,
           }}
         >

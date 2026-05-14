@@ -535,6 +535,14 @@ canvas {
   .cta-title {
     font-size: 30px !important;
   }
+
+  footer div {
+    flex-direction: column;
+  }
+
+  footer div div {
+    flex-direction: row;
+  }
 }
 
 /* ── Keyframes ── */
