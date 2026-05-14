@@ -58,6 +58,7 @@ canvas {
 #about,
 #skills,
 #projects,
+#hero,
 #experience,
 #cta {
   padding: 50px 60px !important;
@@ -409,15 +410,16 @@ canvas {
    TABLET  ≤ 968px
 ──────────────────────────────── */
 @media (max-width: 968px) {
-  .hero-section,
+  /* .hero-section,
   .about-section,
   .skills-section,
+  #hero,
   .projects-section,
   .experience-section,
   .contact-section {
-    /* padding: 100px 24px 60px; */
+    padding: 100px 24px 60px;
     padding: 30px 20px;
-  }
+  } */
 
   #projects,
   #about,
@@ -426,6 +428,10 @@ canvas {
   #experience,
   #cta {
     padding: 50px 20px !important;
+  }
+
+  #hero {
+    padding: 120px 20px !important;
   }
 
   .footer {
@@ -526,15 +532,15 @@ canvas {
    MOBILE  ≤ 640px
 ──────────────────────────────── */
 @media (max-width: 640px) {
-  .hero-section,
+  /* .hero-section,
   .about-section,
   .skills-section,
   .projects-section,
+  #hero,
   .experience-section,
   .contact-section {
-    /* padding: 100px 24px 60px; */
-    padding: 30px 20px;
-  }
+    padding: 100px 24px 60px;
+  } */
 
   #projects,
   #about,
@@ -543,6 +549,9 @@ canvas {
   #experience,
   #cta {
     padding: 50px 20px !important;
+  }
+  #hero {
+    padding: 120px 20px !important;
   }
 
   .skills-grid {
