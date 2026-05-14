@@ -4,8 +4,10 @@ const PROJECTS = [
   {
     icon: "🛒",
     type: "fullstack",
-    label: "Full Stack",
+    label: "MERN Stack",
     title: "POS",
+    url: "https://pos.sandeep-kumar.in/",
+    github: "https://github.com/sktsandeep1/food-app",
     gradient:
       "linear-gradient(135deg, rgba(74,144,217,0.1), rgba(139,92,246,0.1))",
     desc: "Built a responsive Point of Sale system tailored for restaurants and retail operations. It streamlines billing, inventory, and order management through a clean, user-friendly dashboard.",
@@ -13,10 +15,11 @@ const PROJECTS = [
     tech: ["React", "Node.js", "MongoDB", "Redux"],
   },
   // {
-  //   icon: "💬",
+  //   icon: "🏥",
   //   type: "fullstack",
   //   label: "Full Stack",
-  //   title: "Real-Time Chat Application",
+  //   title: "Gameday Men's Health",
+  //   url: "https://gamedaymenshealth.com/",
   //   gradient:
   //     "linear-gradient(135deg, rgba(6,182,212,0.1), rgba(16,185,129,0.1))",
   //   desc: "A real-time messaging platform with WebSocket support, group chats, file sharing, typing indicators, and end-to-end encryption for secure communication.",
@@ -148,7 +151,7 @@ function ProjectCard({ project, delay }) {
         </div>
         <div style={{ display: "flex", gap: 12 }}>
           <a
-            href="https://pos.sandeep-kumar.in/"
+            href={project.url}
             style={{
               fontSize: 12,
               color: "var(--accent-blue)",
@@ -160,7 +163,7 @@ function ProjectCard({ project, delay }) {
             ↗ Live Demo
           </a>
           <a
-            href="https://github.com/sktsandeep1/food-app"
+            href={project.github}
             style={{
               fontSize: 12,
               color: "var(--accent-blue)",
@@ -214,7 +217,7 @@ export default function Projects() {
             lineHeight: 1.1,
           }}
         >
-          Featured{" "}
+          Featured
           <span
             style={{
               background:
@@ -227,9 +230,10 @@ export default function Projects() {
           </span>
         </h2>
         <div
+          className="projects-row"
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(1, 1fr)",
+            gridTemplateColumns: "repeat(2, 1fr)",
             gap: 28,
           }}
         >

@@ -54,6 +54,15 @@ canvas {
   background: rgba(74, 144, 217, 0.5);
 }
 
+#projects,
+#about,
+#skills,
+#projects,
+#experience,
+#cta {
+  padding: 50px 60px !important;
+}
+
 .section-inner {
   max-width: 1200px;
   width: 100%;
@@ -295,7 +304,7 @@ canvas {
   position: relative;
   z-index: 1;
   min-height: 100vh;
-  padding: 120px 60px;
+  padding: 50px 60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -318,7 +327,7 @@ canvas {
   position: relative;
   z-index: 1;
   min-height: 100vh;
-  padding: 120px 60px;
+  padding: 50px 60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -334,7 +343,7 @@ canvas {
   position: relative;
   z-index: 1;
   min-height: 100vh;
-  padding: 120px 60px;
+  padding: 50px 60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -350,7 +359,7 @@ canvas {
   position: relative;
   z-index: 1;
   min-height: 100vh;
-  padding: 120px 60px;
+  padding: 50px 60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -367,7 +376,7 @@ canvas {
   position: relative;
   z-index: 1;
   min-height: 60vh;
-  padding: 120px 60px;
+  padding: 50px 60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -406,8 +415,19 @@ canvas {
   .projects-section,
   .experience-section,
   .contact-section {
-    padding: 100px 24px 60px;
+    /* padding: 100px 24px 60px; */
+    padding: 30px 20px;
   }
+
+  #projects,
+  #about,
+  #skills,
+  #projects,
+  #experience,
+  #cta {
+    padding: 50px 20px !important;
+  }
+
   .footer {
     padding: 32px 24px;
   }
@@ -490,6 +510,11 @@ canvas {
   .cta-title {
     font-size: 36px !important;
   }
+
+  section#projects div .projects-row {
+    grid-template-columns: 1fr !important;
+  }
+
   .footer-inner {
     flex-direction: column;
     gap: 16px;
@@ -501,6 +526,25 @@ canvas {
    MOBILE  ≤ 640px
 ──────────────────────────────── */
 @media (max-width: 640px) {
+  .hero-section,
+  .about-section,
+  .skills-section,
+  .projects-section,
+  .experience-section,
+  .contact-section {
+    /* padding: 100px 24px 60px; */
+    padding: 30px 20px;
+  }
+
+  #projects,
+  #about,
+  #skills,
+  #projects,
+  #experience,
+  #cta {
+    padding: 50px 20px !important;
+  }
+
   .skills-grid {
     grid-template-columns: 1fr !important;
   }
@@ -534,6 +578,10 @@ canvas {
   }
   .cta-title {
     font-size: 30px !important;
+  }
+
+  section#projects div .projects-row {
+    grid-template-columns: 1fr !important;
   }
 
   footer div {

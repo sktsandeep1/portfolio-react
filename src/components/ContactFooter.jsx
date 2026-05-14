@@ -4,7 +4,7 @@ export function Contact() {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText("sandeep@example.com").then(() => {
+    navigator.clipboard.writeText("sktsandeep1@gmail.com").then(() => {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     });
