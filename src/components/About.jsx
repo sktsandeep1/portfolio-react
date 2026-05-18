@@ -63,9 +63,9 @@ export default function About() {
         >
           <div ref={textRef}>
             {[
-              "I'm a Full Stack Developer and SEO Expert with a strong foundation in computer science and a passion for creating impactful software solutions. With expertise spanning front-end frameworks like React and Angular to back-end technologies like Node.js and Python, I thrive on building end-to-end applications.",
-              "My journey in tech has equipped me with a deep understanding of software architecture, database design, cloud services, and DevOps practices. I believe in writing clean, maintainable code and following best practices to deliver robust applications.",
-              "When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or diving into the latest in AI and machine learning.",
+              "I’m Sandeep, a Full Stack Developer & SEO Expert passionate about building meaningful digital experiences that are clean, user-focused, and performance-driven. I enjoy solving problems, improving user experience, and creating impactful solutions that combine functionality with thoughtful design.",
+              "I’m someone who loves continuous learning, exploring creative ideas, and taking ownership of projects from concept to execution. Beyond work, I enjoy travelling, discovering new cultures, and gaining inspiration from different experiences and people.",
+              "My goal is to create digital products that not only look great but also deliver real value and lasting impact.",
             ].map((text, i) => (
               <p
                 key={i}
