@@ -159,7 +159,7 @@ export default function About() {
                 <br />
                 &nbsp;&nbsp;<span style={{ color: "#61afef" }}>languages</span>:
                 [<br />
-                {["JavaScript", "TypeScript"].map((lang) => (
+                {["JavaScript"].map((lang) => (
                   <span key={lang}>
                     &nbsp;&nbsp;&nbsp;&nbsp;
                     <span style={{ color: "#98c379" }}>"{lang}"</span>,<br />

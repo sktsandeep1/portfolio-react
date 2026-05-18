@@ -8,7 +8,6 @@ const SKILLS = [
     tags: [
       "React",
       "Next.js",
-      "TypeScript",
       "HTML/CSS",
       "Redux",
       "GSAP",
@@ -28,13 +27,23 @@ const SKILLS = [
     icon: "◈",
     type: "database",
     title: "Databases",
-    tags: ["MongoDB", "PostgreSQL", "Firebase", "Prisma"],
+    tags: ["MongoDB", "PostgreSQL"],
   },
   {
     icon: "☁",
     type: "devops",
     title: "Cloud & DevOps",
-    tags: ["Docker", "Kubernetes", "CI/CD", "GitHub Actions", "Vercel"],
+    tags: [
+      "Docker",
+      "CI/CD",
+      "GitHub",
+      "Vercel",
+      "Render",
+      "Neon",
+      "Supabase",
+      "Firebase",
+      "Prisma",
+    ],
   },
   {
     icon: "⚙",
@@ -44,7 +53,6 @@ const SKILLS = [
       "Git/Github",
       "VS Code",
       "Postman",
-      "Jest",
       "Webpack",
       "Figma",
       "MongoDB - Atlas, Compass",
@@ -54,7 +62,7 @@ const SKILLS = [
     icon: "✦",
     type: "others",
     title: "Others",
-    tags: ["System Design", "Agile/Scrum", "GTM", "GSC", "Speed Optimization"],
+    tags: ["Agile/Scrum", "GTM", "GSC", "Speed Optimization"],
   },
 ];
 
