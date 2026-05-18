@@ -4,7 +4,7 @@ const EXPERIENCE = [
   {
     date: "Jan 2023 — Apr 2026",
     role: "Web Developer & SEO Expert",
-    company: "Tech Solutions Inc.",
+    company: "IB Arts Pvt. Ltd.",
     location: "📍 Kolkata",
     points: [
       "Developed and maintained responsive web applications using HTML, CSS, JavaScript, and React.js",
