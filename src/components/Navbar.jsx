@@ -50,8 +50,12 @@ export default function Navbar() {
   return (
     <>
       <nav className={`navbar${scrolled ? " scrolled" : ""}`}>
-        <div className="nav-logo" onClick={() => scrollTo("hero")}>
-          Sandeep<span>.dev</span>
+        <div
+          className="nav-logo"
+          style={{ width: "50px", display: "flex" }}
+          onClick={() => scrollTo("hero")}
+        >
+          <img src="/assets/logo.png" alt="Logo" style={{ width: "50px" }} />
         </div>
         <ul className="nav-links">
           {NAV_ITEMS.map(([id, label]) => (
