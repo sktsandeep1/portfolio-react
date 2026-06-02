@@ -21,7 +21,7 @@ const SKILLS = [
     icon: "⚡",
     type: "backend",
     title: "Backend",
-    tags: ["Node.js", "Express Js", "FastAPI", "REST APIs"],
+    tags: ["Node.js", "Express Js", "FastAPI", "REST APIs", "MVC"],
   },
   {
     icon: "◈",
@@ -36,7 +36,7 @@ const SKILLS = [
     tags: [
       "Docker",
       "CI/CD",
-      "GitHub",
+      "Git/GitHub",
       "Vercel",
       "Render",
       "Neon",
@@ -45,6 +45,7 @@ const SKILLS = [
       "Prisma",
       "PuTTY",
       "WinSCP",
+      "CPanel",
     ],
   },
   {
@@ -52,7 +53,6 @@ const SKILLS = [
     type: "tools",
     title: "Tools & Testing",
     tags: [
-      "Git/Github",
       "VS Code",
       "Postman",
       "Webpack",
