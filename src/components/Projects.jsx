@@ -1,11 +1,12 @@
 import { useReveal } from "../hooks/useReveal";
-
+import ibarts from "../../public/assets/ibarts.png";
 const PROJECTS = [
   {
     icon: "🛒",
+    image: "ibarts",
     type: "fullstack",
     label: "MERN Stack",
-    title: "POS",
+    title: "Point of Sale",
     url: "https://pos.sandeep-kumar.in/",
     github: "https://github.com/sktsandeep1/food-app",
     gradient:
@@ -13,37 +14,38 @@ const PROJECTS = [
     desc: "Built a responsive Point of Sale system tailored for restaurants and retail operations. It streamlines billing, inventory, and order management through a clean, user-friendly dashboard.",
     tech: ["React", "Node.js", "MongoDB", "Express", "Redux"],
   },
-  // {
-  //   icon: "🏥",
-  //   type: "fullstack",
-  //   label: "Full Stack",
-  //   title: "Gameday Men's Health",
-  //   url: "https://gamedaymenshealth.com/",
-  //   gradient:
-  //     "linear-gradient(135deg, rgba(6,182,212,0.1), rgba(16,185,129,0.1))",
-  //   desc: "A real-time messaging platform with WebSocket support, group chats, file sharing, typing indicators, and end-to-end encryption for secure communication.",
-  //   tech: ["React", "Socket.io", "Node.js", "PostgreSQL", "Redis"],
-  // },
-  // {
-  //   icon: "📊",
-  //   type: "frontend",
-  //   label: "Frontend",
-  //   title: "Analytics Dashboard",
-  //   gradient:
-  //     "linear-gradient(135deg, rgba(139,92,246,0.1), rgba(236,72,153,0.1))",
-  //   desc: "An interactive analytics dashboard featuring real-time data visualization, customizable widgets, dark/light themes, and role-based access control.",
-  //   tech: ["Next.js", "TypeScript", "D3.js", "Tailwind", "Prisma"],
-  // },
-  // {
-  //   icon: "🤖",
-  //   type: "backend",
-  //   label: "Backend",
-  //   title: "AI Content Generator",
-  //   gradient:
-  //     "linear-gradient(135deg, rgba(245,158,11,0.1), rgba(239,68,68,0.1))",
-  //   desc: "An AI-powered content generation tool utilizing OpenAI APIs for text, code, and image generation with a sleek interface and usage tracking.",
-  //   tech: ["Python", "FastAPI", "React", "OpenAI", "Docker"],
-  // },
+  {
+    icon: "🏥",
+    type: "frontend",
+    label: "Frontend",
+    title: "Gameday Men's Health",
+    url: "https://gamedaymenshealth.com/",
+    gradient:
+      "linear-gradient(135deg, rgba(6,182,212,0.1), rgba(16,185,129,0.1))",
+    desc: "Built and enhanced scalable healthcare websites with responsive layouts, dynamic JavaScript/jQuery functionalities, performance optimization, and cross-browser compatibility.",
+    tech: ["Html", "Css", "Javascript", "Gsap"],
+  },
+  {
+    icon: "💻",
+    type: "frontend",
+    label: "Frontend",
+    title: "IB Arts",
+    url: "https://ibarts.co/",
+    gradient:
+      "linear-gradient(135deg, rgba(139,92,246,0.1), rgba(236,72,153,0.1))",
+    desc: "Developed and maintained responsive corporate websites using HTML, CSS, JavaScript, PHP, and Particles.js, creating interactive user experiences, dynamic UI elements, and performance-optimized web pages.",
+    tech: ["Html", "Css", "Javascript", "Wordpress", "Particles.js", "PHP"],
+  },
+  {
+    icon: "📨",
+    type: "frontend",
+    label: "Frontend",
+    title: "MailSetu",
+    gradient:
+      "linear-gradient(135deg, rgba(245,158,11,0.1), rgba(239,68,68,0.1))",
+    desc: "AI-powered co-marketing platform that helps newsletter creators, SaaS founders, and brands discover partnership opportunities without sharing email lists.",
+    tech: ["React", "React Router", "Api Integration", "Git & Github"],
+  },
 ];
 
 const LABEL_COLORS = {
@@ -148,8 +150,15 @@ function ProjectCard({ project, delay }) {
             </span>
           ))}
         </div>
-        <div style={{ display: "flex", gap: 12 }}>
-          <a
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+
+            gap: 12,
+          }}
+        >
+          {/* <a
             href={project.url}
             style={{
               fontSize: 12,
@@ -160,8 +169,8 @@ function ProjectCard({ project, delay }) {
             }}
           >
             ↗ Live Demo
-          </a>
-          <a
+          </a> */}
+          {/* <a
             href={project.github}
             style={{
               fontSize: 12,
@@ -172,7 +181,41 @@ function ProjectCard({ project, delay }) {
             }}
           >
             ⟨/⟩ Source Code
-          </a>
+          </a> */}
+
+          {project.url ? (
+            <a
+              href={project.url}
+              style={{
+                fontSize: 12,
+                color: "var(--accent-blue)",
+                textDecoration: "none",
+                fontWeight: 500,
+                transition: "color 0.3s",
+              }}
+            >
+              ↗ Live Demo
+            </a>
+          ) : (
+            ""
+          )}
+
+          {project.github ? (
+            <a
+              href={project.github}
+              style={{
+                fontSize: 12,
+                color: "var(--accent-blue)",
+                textDecoration: "none",
+                fontWeight: 500,
+                transition: "color 0.3s",
+              }}
+            >
+              ⟨/⟩ Source Code
+            </a>
+          ) : (
+            ""
+          )}
         </div>
       </div>
     </div>

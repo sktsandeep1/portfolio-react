@@ -21,7 +21,7 @@ const SKILLS = [
     icon: "⚡",
     type: "backend",
     title: "Backend",
-    tags: ["Node.js", "Express", "FastAPI", "REST APIs"],
+    tags: ["Node.js", "Express Js", "FastAPI", "REST APIs"],
   },
   {
     icon: "◈",
@@ -43,6 +43,8 @@ const SKILLS = [
       "Supabase",
       "Firebase",
       "Prisma",
+      "PuTTY",
+      "WinSCP",
     ],
   },
   {
